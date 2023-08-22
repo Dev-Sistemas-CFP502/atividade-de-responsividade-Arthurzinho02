@@ -149,10 +149,47 @@ p {
   color: #ffbb00;
   font-size: 2rem;
 }
-@media screen and(min-width:600px) and (max-width: 920px) {
-  
+@media screen and (max-width: 920px) {
+  .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .conteudo{
+    display: flex;
+    flex-direction: column;
+  }
+  .introducao-img{
+    max-width: 800px;
+    object-fit: cover;
+    overflow-y: hidden;
+  }
+  .introducao > h2{
+    font-size: 2.5rem;
+  }
+  .introducao > p {
+    font-size: 1.5rem;
+  }
+  .introducao > a {
+    font-size: 1rem;
+  }
+  .vantagens{
+    display: flex;
+    flex-direction: column;
+  }
+  .vantagens-titulo{
+    font-size: 2.5rem;
+  }
+  .rodape > p{
+    font-size: 1rem;
+  }
 }
-@media screen and (min-width: 320px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .header{
     font-size: 1.5rem;
   }
