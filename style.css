@@ -149,6 +149,9 @@ p {
   color: #ffbb00;
   font-size: 2rem;
 }
+@media screen and(min-width:600px) and (max-width: 920px) {
+  
+}
 @media screen and (min-width: 320px) and (max-width: 600px) {
   .header{
     font-size: 1.5rem;
