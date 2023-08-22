@@ -149,8 +149,8 @@ p {
   color: #ffbb00;
   font-size: 2rem;
 }
-@media screen and (max-width: 920px) {
-  .header{
+@media screen and (min-width:1024pxS) {
+  /* .header{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,7 +165,7 @@ p {
     flex-direction: column;
   }
   .introducao-img{
-    max-width: 800px;
+    max-width: 900px;
     object-fit: cover;
     overflow-y: hidden;
   }
@@ -183,10 +183,97 @@ p {
     flex-direction: column;
   }
   .vantagens-titulo{
-    font-size: 2.5rem;
+    font-size: 2.7rem;
   }
   .rodape > p{
+    font-size: 1.5rem;
+  } */
+}
+@media screen and (max-width: 1024px) {
+  .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .conteudo{
+    display: flex;
+    flex-direction: column;
+  }
+  .introducao-img{
+    max-width: 900px;
+    object-fit: cover;
+    overflow-y: hidden;
+  }
+  .introducao > h2{
+    font-size: 2.5rem;
+  }
+  .introducao > p {
+    font-size: 1.5rem;
+  }
+  .introducao > a {
     font-size: 1rem;
+  }
+  .vantagens{
+    display: flex;
+    flex-direction: column;
+  }
+  .vantagens-titulo{
+    font-size: 2.7rem;
+  }
+  .rodape > p{
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+  .conteudo{
+    display: flex;
+    flex-direction: column;
+  }
+  .introducao-img{
+    max-width: 700px;
+    object-fit: cover;
+    overflow-y: hidden;
+  }
+  .introducao > h2{
+    font-size: 2.5rem;
+  }
+  .introducao > p {
+    font-size: 1.7rem;
+  }
+  .introducao > a {
+    font-size: 1.5rem;
+  }
+  .vantagens{
+    display: flex;
+    flex-direction: column;
+  }
+  .vantagens-titulo{
+    font-size: 3rem;
+  }
+  .vantagens-lista > li > h3{
+    font-size: 2rem;
+  }
+  .vantagens-lista > li > p{
+    font-size: 1.7rem;
+  }
+  .rodape > p{
+    font-size: 2rem;
   }
 }
 @media screen and (max-width: 600px) {
@@ -195,6 +282,7 @@ p {
   }
   .menu ul{
     display: block;
+    font-size: 1rem;
   }
   .conteudo{
     display: flex;
@@ -220,6 +308,12 @@ p {
   }
   .vantagens-titulo{
     font-size: 2.5rem;
+  }
+  .vantagens-lista > li > h3{
+    font-size: 1.5rem;
+  }
+  .vantagens-lista > li > p{
+    font-size: 1rem;
   }
   .rodape > p{
     font-size: 1rem;
